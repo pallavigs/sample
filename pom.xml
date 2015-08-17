@@ -32,6 +32,11 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>3.2.3.RELEASE</version>
 		</dependency>
+                <dependency>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                        <version>jul-2.3</version>
+               </dependency>
 
 	</dependencies>
 	<build>
