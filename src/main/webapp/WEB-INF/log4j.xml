@@ -12,7 +12,7 @@
 	</appender>
 
 	<appender name="FILE" class="org.apache.log4j.RollingFileAppender">
-	    <param name="file" value="c:/logs/app.log"/>	  
+	    <param name="file" value="/var/log/app_log4j.log"/>	  
 		<param name="immediateFlush" value="true" />
 		<param name="threshold" value="debug" />
 		<param name="append" value="true" />
@@ -24,7 +24,7 @@
 	</appender>
 
 	<appender name="FILE1" class="org.apache.log4j.RollingFileAppender">
-		<param name="file" value="c:/logs/spring.log" />
+		<param name="file" value="/var/log/app_spring.log" />
 		<param name="immediateFlush" value="true" />
 		<param name="threshold" value="debug" />
 		<param name="append" value="true" />
